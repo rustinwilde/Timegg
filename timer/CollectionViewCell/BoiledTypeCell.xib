@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BoiledTypeCell" id="gTV-IL-0wX" customClass="BoiledTypeCell" customModule="timer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="286"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="288" height="286"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOZ-jX-gdx">
+                        <rect key="frame" x="0.0" y="0.0" width="288" height="286"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJm-1q-q5z">
+                                <rect key="frame" x="92" y="42" width="104" height="152"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIo-Bb-Bay">
+                                <rect key="frame" x="99" y="68" width="90" height="126"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soft egg" translatesAutoresizingMaskIntoConstraints="NO" id="Oig-vN-fr3">
+                                        <rect key="frame" x="6" y="-43" width="78" height="126"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="126" id="PLi-pb-DOI"/>
+                                            <constraint firstAttribute="width" constant="78" id="fhX-06-3do"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soft boiled" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLa-62-Oro">
+                                        <rect key="frame" x="16" y="76" width="48" height="33"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstItem="Oig-vN-fr3" firstAttribute="top" secondItem="cIo-Bb-Bay" secondAttribute="top" constant="-43" id="20i-xl-NPv"/>
+                                    <constraint firstAttribute="trailing" secondItem="WLa-62-Oro" secondAttribute="trailing" constant="26" id="8Bw-86-jPy"/>
+                                    <constraint firstAttribute="width" constant="90" id="G42-x3-sha"/>
+                                    <constraint firstAttribute="height" constant="126" id="PXK-6d-BW4"/>
+                                    <constraint firstItem="WLa-62-Oro" firstAttribute="leading" secondItem="cIo-Bb-Bay" secondAttribute="leading" constant="16" id="TdT-LM-m6j"/>
+                                    <constraint firstItem="Oig-vN-fr3" firstAttribute="leading" secondItem="cIo-Bb-Bay" secondAttribute="leading" constant="6" id="Yu6-D4-peX"/>
+                                    <constraint firstAttribute="trailing" secondItem="Oig-vN-fr3" secondAttribute="trailing" constant="6" id="dzZ-74-2fd"/>
+                                    <constraint firstItem="WLa-62-Oro" firstAttribute="top" secondItem="cIo-Bb-Bay" secondAttribute="top" constant="76" id="sxh-rS-iyd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cIo-Bb-Bay" firstAttribute="leading" secondItem="XOZ-jX-gdx" secondAttribute="leading" constant="99" id="7xS-0H-ar3"/>
+                            <constraint firstItem="qJm-1q-q5z" firstAttribute="top" secondItem="XOZ-jX-gdx" secondAttribute="top" constant="42" id="8Co-lQ-sU1"/>
+                            <constraint firstAttribute="trailing" secondItem="qJm-1q-q5z" secondAttribute="trailing" constant="92" id="99h-Fu-Ish"/>
+                            <constraint firstItem="qJm-1q-q5z" firstAttribute="leading" secondItem="XOZ-jX-gdx" secondAttribute="leading" constant="92" id="Gfa-tF-7nt"/>
+                            <constraint firstAttribute="trailing" secondItem="cIo-Bb-Bay" secondAttribute="trailing" constant="99" id="a4l-7G-oiq"/>
+                            <constraint firstAttribute="bottom" secondItem="qJm-1q-q5z" secondAttribute="bottom" constant="92" id="gXH-NA-zeb"/>
+                            <constraint firstItem="cIo-Bb-Bay" firstAttribute="top" secondItem="XOZ-jX-gdx" secondAttribute="top" constant="68" id="mdN-K1-Syu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="XOZ-jX-gdx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Eaz-FZ-zoL"/>
+                <constraint firstAttribute="bottom" secondItem="XOZ-jX-gdx" secondAttribute="bottom" id="JtT-YV-ch4"/>
+                <constraint firstAttribute="trailing" secondItem="XOZ-jX-gdx" secondAttribute="trailing" id="Ld3-kR-h08"/>
+                <constraint firstItem="XOZ-jX-gdx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="S5l-gq-Iej"/>
+            </constraints>
+            <size key="customSize" width="288" height="286"/>
+            <connections>
+                <outlet property="imageOption" destination="Oig-vN-fr3" id="tAT-tp-ozn"/>
+                <outlet property="innerView" destination="cIo-Bb-Bay" id="nf2-Pb-mee"/>
+                <outlet property="optionText" destination="WLa-62-Oro" id="3qf-9W-rw9"/>
+                <outlet property="outerView" destination="qJm-1q-q5z" id="mEF-UL-Zj7"/>
+            </connections>
+            <point key="canvasLocation" x="151.14503816793894" y="47.887323943661976"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Soft egg" width="419.57998657226562" height="297.67498779296875"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

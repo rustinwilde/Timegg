@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "f6a6914064cd2804d6340bfbe49a8ef6cb47efd4ea5b5034272b7b98d8b96cd5"
+build_start_time: [1683576416, 928817000]
+build_end_time: [1683576416, 985475000]
+inputs:
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Custom/CustomTImer.swift": !private [1683041790, 454329737]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Custom/CustomTitle.swift": !private [1680345049, 662964702]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Custom/CustomView.swift": !private [1681672220, 807447314]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Documents/AppDelegate.swift": !private [1679929518, 601709008]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Documents/SceneDelegate.swift": !private [1679929518, 605070591]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Views/DetailVC.swift": !private [1683566860, 137231487]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Views/HomeVC.swift": !private [1680800353, 382075310]
+  "/Users/rustinwilde/Desktop/Swift/Timegg/timer/Views/TimerVC.swift": !private [1683566243, 891760185]
